@@ -1,0 +1,5 @@
+20180001	Hong Gildong	84	73
+20180002	Lee Jieun	92	89
+20180007	Kim Cheolsu	57	62
+20180009	Lee Yeonghee	81	84
+20180011	Ha Donghun	58	68
