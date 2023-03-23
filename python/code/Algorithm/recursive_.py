@@ -1,8 +1,8 @@
-def fivo_recursive(n):        
+def fibo_recursive(n):        
     if n <= 1:
         return 1
-    return fivo_recursive(n - 1) + fivo_recursive(n - 2)
+    return fibo_recursive(n - 1) + fibo_recursive(n - 2)
 
 t = int(input())
 for i in range(t):
-    print(fivo_recursive(i))
+    print(fibo_recursive(i))
