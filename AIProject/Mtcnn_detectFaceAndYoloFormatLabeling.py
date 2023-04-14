@@ -15,7 +15,7 @@ for f in os.listdir(oriFaceImgDir):
     img_path = os.path.join(oriFaceImgDir, f)
     txt_path = os.path.join(txtDir, txt_name)
 
-    img = cv2.imread("data_set/SB/IMG_0045.JPG")
+    img = cv2.imread(img_path)
     height, width, _ = img.shape
     bboxes, landmarks = mtcnn_detector.detect_face(img)
 
